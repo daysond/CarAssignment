@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EDF0A6402206495800C3AC50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF0A63F2206495800C3AC50 /* main.m */; };
+		EDF0A64B22064AFA00C3AC50 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF0A64A22064AFA00C3AC50 /* Car.m */; };
+		EDF0A64E22064C9500C3AC50 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF0A64D22064C9500C3AC50 /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		EDF0A63C2206495800C3AC50 /* CarAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF0A63F2206495800C3AC50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF0A64922064AFA00C3AC50 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		EDF0A64A22064AFA00C3AC50 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		EDF0A64C22064C9500C3AC50 /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		EDF0A64D22064C9500C3AC50 /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				EDF0A63F2206495800C3AC50 /* main.m */,
+				EDF0A64C22064C9500C3AC50 /* Toyota.h */,
+				EDF0A64D22064C9500C3AC50 /* Toyota.m */,
+				EDF0A64922064AFA00C3AC50 /* Car.h */,
+				EDF0A64A22064AFA00C3AC50 /* Car.m */,
 			);
 			path = CarAssignment;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF0A64E22064C9500C3AC50 /* Toyota.m in Sources */,
+				EDF0A64B22064AFA00C3AC50 /* Car.m in Sources */,
 				EDF0A6402206495800C3AC50 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
